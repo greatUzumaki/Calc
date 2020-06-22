@@ -33,7 +33,8 @@ namespace Calc
 
             if (oper == '-') //Anton
             {
-
+                Console.Write("Otvet: ");
+                Console.WriteLine(a-b);
             }
 
             if (oper == '*') //Sanya
