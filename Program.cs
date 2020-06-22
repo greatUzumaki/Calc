@@ -38,8 +38,8 @@ namespace Calc
 
             if (oper == '*') //Sanya
             {
-                double v = a * b;
-                otvet = v;
+                otvet = a * b;
+                Console.WriteLine(otvet);  
             }
 
             if (oper == '/') //Lev or Leha
