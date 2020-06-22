@@ -28,7 +28,8 @@ namespace Calc
 
             if(oper == '+') //Sabuhi
             {
-
+                   otvet = a + b; 
+                 Console.WriteLine(otvet);
             }
 
             if (oper == '-') //Anton
@@ -51,7 +52,8 @@ namespace Calc
                     Console.WriteLine(otvet);
                 }
             }
-
+            
+           
             Console.ReadKey();
         }
     }
