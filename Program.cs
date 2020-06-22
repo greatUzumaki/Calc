@@ -28,24 +28,32 @@ namespace Calc
 
             if(oper == '+') //Sabuhi
             {
-
+                   otvet = a + b; 
+                 Console.WriteLine(otvet);
             }
 
             if (oper == '-') //Anton
             {
-
+                Console.Write("Otvet: ");
+                Console.WriteLine(a-b);
             }
 
             if (oper == '*') //Sanya
             {
-
+                otvet = a * b;
+                Console.WriteLine(otvet);
             }
 
             if (oper == '/') //Lev or Leha
             {
-
+                if (b != 0) 
+                {
+                    otvet = a / b;
+                    Console.WriteLine(otvet);
+                }
             }
-
+            
+           
             Console.ReadKey();
         }
     }
