@@ -38,7 +38,8 @@ namespace Calc
 
             if (oper == '*') //Sanya
             {
-             otvet = a * b;
+                double v = a * b;
+                otvet = v;
             }
 
             if (oper == '/') //Lev or Leha
