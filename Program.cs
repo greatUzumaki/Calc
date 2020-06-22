@@ -45,7 +45,8 @@ namespace Calc
             {
 
             }
-
+            
+            Console.WriteLine(otvet);
             Console.ReadKey();
         }
     }
