@@ -43,7 +43,11 @@ namespace Calc
 
             if (oper == '/') //Lev or Leha
             {
-
+                if (b != 0) 
+                {
+                    otvet = a / b;
+                    Console.WriteLine(otvet);
+                }
             }
 
             Console.ReadKey();
