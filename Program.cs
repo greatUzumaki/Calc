@@ -28,7 +28,7 @@ namespace Calc
 
             if(oper == '+') //Sabuhi
             {
-
+                   ответ = a + b; 
             }
 
             if (oper == '-') //Anton
