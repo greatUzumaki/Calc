@@ -39,7 +39,8 @@ namespace Calc
             if (oper == '*') //Sanya
             {
                 otvet = a * b;
-                Console.WriteLine(otvet);  
+                Console.WriteLine(otvet);
+                Console.WriteLine("da");  
             }
 
             if (oper == '/') //Lev or Leha
